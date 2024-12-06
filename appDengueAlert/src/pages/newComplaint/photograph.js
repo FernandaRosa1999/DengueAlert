@@ -51,7 +51,7 @@ export default function Photograph() {
       formData.append('description', description);
       formData.append('userId', userId);
 
-      const serverResponse = await fetch('http://192.168.0.12:3000/upload', {
+      const serverResponse = await fetch('http://SEU_IP_LOCAL:3000/upload', {
         method: 'POST',
         body: formData,
         headers: { 'Content-Type': 'multipart/form-data' },

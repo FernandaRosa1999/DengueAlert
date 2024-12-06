@@ -5,7 +5,7 @@
 <ol>
   <li>Clonar o Repositório</li>
   <p>  
-  ```
+  ```bash
   git clone https://github.com/FernandaRosa1999/DengueAlert.git
   cd DengueAlert
   ```

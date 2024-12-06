@@ -6,7 +6,6 @@
 <ol>
   <li>Clonar o Repositório</li>
   <div class="code-block">
-    <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
     <pre><code>git clone https://github.com/FernandaRosa1999/DengueAlert.git
 cd DengueAlert</code></pre>
   </div>
@@ -16,18 +15,15 @@ cd DengueAlert</code></pre>
     <li>Acesse a pasta do servidor Express: <a href='https://github.com/FernandaRosa1999/DengueAlert/tree/main/appDengueAlert/src/config'>config</a></li>
     <li>Instale as dependências do servidor:</li>
     <div class="code-block">
-      <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
       <pre><code>npm install</code></pre>
     </div>
     <li>Inicie o servidor Express:</li>
     <div class="code-block">
-      <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
       <pre><code>node server.js</code></pre>
     </div>
     <p>O servidor será iniciado por padrão na porta 3000.</p>
     <li>Verifique o IP da máquina: Certifique-se de usar o IP correto da máquina local no mesmo Wi-Fi que o dispositivo ou emulador. Você pode verificar seu IP com o comando:</li>
     <div class="code-block">
-      <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
       <pre><code>ipconfig (Windows) ou ifconfig (Linux/Mac)</code></pre>
     </div>
     <li>Atualize o endereço do servidor no aplicativo:</li>
@@ -42,12 +38,10 @@ cd DengueAlert</code></pre>
   <ul>
     <li>Instale as dependências:</li>
     <div class="code-block">
-      <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
       <pre><code>npm install</code></pre>
     </div>
     <li>Inicie o servidor Expo:</li>
     <div class="code-block">
-      <button class="copy-button" onclick="copyCode(this)">Copiar código</button>
       <pre><code>expo start</code></pre>
     </div>
     <li>Conecte o dispositivo ou emulador:</li>
@@ -68,19 +62,3 @@ cd DengueAlert</code></pre>
   <li><strong>react-native-maps:</strong> Exibição de mapas e localização das denúncias.</li>
   <li><strong>Axios:</strong> Comunicação com o servidor Express para upload de dados.</li>
 </ul>
-
-<script>
-  function copyCode(button) {
-    const codeBlock = button.nextElementSibling;
-    const codeText = codeBlock.innerText;
-
-    navigator.clipboard.writeText(codeText).then(() => {
-      button.innerText = "Código copiado";
-      setTimeout(() => {
-        button.innerText = "Copiar código";
-      }, 2000);
-    }).catch(err => {
-      console.error('Erro ao copiar código: ', err);
-    });
-  }
-</script>

@@ -7,7 +7,8 @@
   <li>Clonar o Repositório</li>
   <div class="code-block">
     <pre><code>git clone https://github.com/FernandaRosa1999/DengueAlert.git
-cd DengueAlert</code></pre>
+    cd DengueAlert
+    cd appDengueAlert</code></pre>
   </div>
 
   <li>Configurar e Rodar o Servidor Express</li>

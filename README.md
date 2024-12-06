@@ -1,8 +1,8 @@
 <h1>DengueAlert</h1>
-<h2>Descrição do Projeto</h2>
-<p>O DengueAlert é um aplicativo desenvolvido em React Native que permite aos usuários registrar denúncias relacionadas a possíveis focos de dengue. As funcionalidades incluem captura de fotos, seleção de imagens da galeria, geolocalização para indicar o local exato do incidente e armazenamento local das informações. O aplicativo é executado exclusivamente no Expo, com suporte a depuração via cabo conectado ao PC.</p>
+<h2>Descrição do Aplicativo</h2>
+<p>O Aplicativo DengueAlert é desenvolvido em React Native que permite aos usuários registrar denúncias relacionadas a possíveis focos de dengue. As funcionalidades incluem captura de fotos, seleção de imagens da galeria, geolocalização para indicar o local exato do incidente e armazenamento local das informações. O aplicativo é executado exclusivamente no Expo, com suporte a depuração via cabo conectado ao PC.</p>
 
-<h2>Como Rodar o Aplicativo DengueAlert</h2>
+<h3>Como Rodar</h3>
 <ol>
   <li>Clonar o Repositório</li>
   <div class="code-block">
